@@ -6,6 +6,8 @@
 * Kibana - think of it as a BI tool that knows how to get data from Elasticsearch and visualize it
 
 ## About this project:
+curl -XGET http://localhost:8080/elk-info
+
 A standard spring-boot project which no dependency
 on any of the above tools. We will directly plug the log file
 "elk-stack.log" to elasticsearch using logstash conf and see the
